@@ -1,0 +1,105 @@
+.alert{
+  line-height: 7px;
+  color: #b81d1d;
+}
+.btn-salvar{
+  border-radius: 20px;
+}
+.elipse {
+    width: 200px;
+    height: 200px;
+    opacity: 0.22;
+    background-color: #0385db;
+    border-radius: 100px;
+  }
+.termos{
+  font-size: 12px;
+}
+
+.linha {
+    line-height: 7px;
+}
+.wrap {
+  display: flex;
+}
+.progresso{
+    background-color:#0385db;
+    width: 70%;
+}
+.progresso-fundo{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+}
+/* .sombra{
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.icone{
+    color:#0385db;
+    font-size:30px;
+}
+body{
+    font-family: Montserrat;
+}
+
+.genero{
+    font-size: 20px;
+    color:#0385db;
+}
+.genero-check{
+    border-radius: 10px;
+}
+
+.tsection {
+  display: none;
+  padding: 20px 0 0;
+}
+
+.tinput {
+  display: none;
+}
+
+.tlabel {
+  display: inline-block;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 15px;
+}
+/* 
+.tlabel[for*='1']:before { content: '\f030'; }
+.tlabel[for*='2']:before { content: '\f17d'; }
+.tlabel[for*='3']:before { content: '\f16b'; }
+.tlabel[for*='4']:before { content: '\f1a9'; } */
+
+.tlabel:hover {
+  color: #4c37c5;
+  cursor: pointer;
+}
+
+.tinput:checked + .tlabel {
+  border-bottom: 2px solid #0385db;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  .tlabel {
+    font-size: 10;
+  }
+  .tlabel:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tlabel {
+    padding: 15px;
+  }
+}
