@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <MenuTop/>
     <h4 class="mt-4 ml-5 mb-2">Meus dados cadastrais</h4>
 
     <div class="row">
@@ -192,12 +193,14 @@
 
 <script>
 import Formulario from "./Formulario.vue";
-import MenuBase from "./MenuBase.vue"
+import MenuBase from "./MenuBase.vue";
+import MenuTop from "./MenuTop.vue"
 export default {
   name: "Layout",
   components: {
     Formulario,
-    MenuBase
+    MenuBase,
+    MenuTop
   },
   props: {},
   data() {

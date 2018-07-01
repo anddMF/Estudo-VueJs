@@ -8,13 +8,15 @@
 import Layout from './components/Layout.vue'
 import Formulario from './components/Formulario.vue'
 import MenuBase from './components/MenuBase.vue'
+import MenuTop from './components/MenuTop.vue'
 
 export default {
   name: 'app',
   components: {
     Layout,
     Formulario,
-    MenuBase 
+    MenuBase,
+    MenuTop
   },
   data() {
 

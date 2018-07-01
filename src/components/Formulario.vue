@@ -12,7 +12,10 @@
         <div class="col-md-1 "></div>
         <div class="form-group col-md-6">
             <label for="fantasiaI"><b>Nome fantasia</b></label>
-            <input type="text" class="form-control" id="fantasiaI" placeholder="Digite o nome fantasia">
+            <input type="text" v-model="nomeFan" v-validate="'required'" class="form-control" id="fantasiaI" placeholder="Digite o nome fantasia">
+            <div v-if="errors.has('nomeFan')" class="alert linha" role="alert">
+                <b>Campo requerido</b>
+            </div>
         </div>
     </div>
     <div class="form-row">
@@ -110,6 +113,7 @@ export default {
   data() {
     return {
       nome: "",
+      nomeFan: "",
       select: [
         { segmento: "Beleza" },
         { segmento: "Alimentação" },
