@@ -18,7 +18,7 @@
     <div class="form-row">
         <div class="form-group col-md-5">
             <label for="segmentoI"><b>Segmento</b></label>
-            <select id="segmentoI" class="form-control">
+            <select id="segmentoI" class="form-control ">
                 <option selected>Escolha o segmento</option>
                 <option v-for="(data, index) in select" :key='index'>{{ data.segmento }}</option>
             </select>

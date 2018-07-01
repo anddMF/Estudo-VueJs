@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-
-    <HelloWorld/>
-    
+    <Layout/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Layout from './components/Layout.vue'
 import Formulario from './components/Formulario.vue'
+import MenuBase from './components/MenuBase.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
-    Formulario
+    Layout,
+    Formulario,
+    MenuBase 
+  },
+  data() {
+
   }
 }
 </script>
