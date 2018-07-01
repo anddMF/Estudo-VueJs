@@ -12,7 +12,7 @@
         <div class="col-md-1 "></div>
         <div class="form-group col-md-6">
             <label for="fantasiaI"><b>Nome fantasia</b></label>
-            <input type="text" v-model="nomeFan" v-validate="'required'" class="form-control" id="fantasiaI" placeholder="Digite o nome fantasia">
+            <input type="text" v-model="nomeFan" v-validate="'required'" name="nomeFan" class="form-control" id="fantasiaI" placeholder="Digite o nome fantasia">
             <div v-if="errors.has('nomeFan')" class="alert linha" role="alert">
                 <b>Campo requerido</b>
             </div>
@@ -89,12 +89,12 @@
     </div>
     <br><br>
     <div class="form-row ">
-        <div class="form-group col-md-4 form-check">
+        <div class="form-group ml-3 col-md-4 form-check">
             <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
             <label class="form-check-label ml-2 termos" for="inlineCheckbox2">Li e aceito os termos de condições do contrato</label>
        </div>
-        <div class="form-group col-md-4">
-            <p style="font-size: 20px;"><i class="fa fa-user"></i> Imprimir</p>
+        <div class="form-group col-md-3">
+            <p style="font-size: 20px;"><i class="fa fa-print icone"></i> Imprimir</p>
         </div>
         <div class="form-group col-md-4">
             <button type="submit" class="btn btn-block btn-primary btn-salvar">SALVAR</button>
