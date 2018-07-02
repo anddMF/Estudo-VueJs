@@ -6,6 +6,7 @@
 .btn-salvar{
   border-radius: 20px;
 }
+
 .menus{
   background-color: transparent;
   font-size: 18px;
@@ -105,12 +106,23 @@ body{
 #tab4:checked ~ #content4 {
   display: block;
 }
+.bg-head{
+  background-color:#2373c2 !important
+}
+.sidebar-sticky li{
+  padding: 10px;
+}
+.sidebar2{
+  height: 100% !important;
+  position: fixed;
+  z-index: 1;
 
-/* TABLET CONFIG */
+}
+
+/* TABLET CONFIG 950 */
 @media screen and (max-width: 950px){
   .btnm{
     font-size: 0px !important;
-    /* width: fit-content; */
     padding-left:50px;
   }
   .botoes{
@@ -123,7 +135,7 @@ body{
     background-color:#343a40 !important;
     width: 102%;
     padding-left:20px;
-    padding-right: 20px;
+    padding-right: 35px;
   }
   .scrolling-wrapper {
     overflow-x: scroll;
@@ -134,6 +146,10 @@ body{
     margin-left: 0 !important;
     background-color: #0385db !important;
     color: white
+  }
+  .segundo .btn{
+    background-color: white !important;
+    color: black;
   }
   .elipse{
     width: 70%;
@@ -175,9 +191,9 @@ body{
   .abrir2 {
     display: none !important;
   }
-  .frm{
+  /* .frm{
     display: none !important;
-  }
+  } */
   .teste{
     display: block !important;
     color: #0385db;
@@ -198,12 +214,6 @@ body{
   }
   .navmob{
     display: inherit;
-  }
-
-}
-@media screen and (min-width: 760){
-  .frm{
-    display: block !important;
   }
 
 }

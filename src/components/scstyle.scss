@@ -1,0 +1,252 @@
+$azul-base: #0385db;
+
+.alert {
+    line-height: 7px;
+    color: #b81d1d;
+  }
+  
+  .btn-salvar {
+    border-radius: 20px;
+  }
+  
+  .menus {
+    background-color: transparent;
+    font-size: 18px;
+    text-align: start;
+  }
+  
+  .elipse {
+    width: 200px;
+    height: 200px;
+    opacity: 0.22;
+    background-color: $azul-base;
+    border-radius: 100px;
+  }
+  
+  .termos {
+    font-size: 12px;
+  }
+  
+  .linha {
+    line-height: 7px;
+  }
+  
+  .wrap {
+    display: flex;
+  }
+  
+  .progresso {
+    background-color: $azul-base;
+    width: 70%;
+  }
+  
+  .progresso-fundo {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+  }
+  
+  .navbar2 {
+    border: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .icone {
+    color: $azul-base;
+    font-size: 30px;
+  }
+  
+  body {
+    font-family: Montserrat;
+  }
+  
+  .genero {
+    font-size: 20px;
+    color: $azul-base;
+  }
+  
+  .genero-check {
+    border-radius: 10px;
+  }
+  
+  .tsection {
+    display: none;
+    padding: 20px 0 0;
+  }
+  
+  .tinput {
+    display: none;
+  }
+  
+  .btnm {
+    font-size: 16px !important;
+    padding-left: 40px;
+    text-align: start !important;
+  }
+  
+  .tlabel {
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    &:hover {
+      color: #4c37c5;
+      cursor: pointer;
+    }
+  }
+  
+  /* 
+  .tlabel[for*='1']:before { content: '\f030'; }
+  .tlabel[for*='2']:before { content: '\f17d'; }
+  .tlabel[for*='3']:before { content: '\f16b'; }
+  .tlabel[for*='4']:before { content: '\f1a9'; } */
+  
+  .tinput:checked + .tlabel {
+    border-bottom: 2px solid $azul-base;
+  }
+  
+  .navmob {
+    display: none;
+  }
+  
+  #tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
+    display: block;
+  }
+  
+  .bg-head {
+    background-color: #2373c2 !important;
+  }
+  
+  .sidebar-sticky li {
+    padding: 10px;
+  }
+  
+  .sidebar2 {
+    height: 100% !important;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  /* TABLET CONFIG 950 */
+  @media screen and (max-width: 950px) {
+    .btnm {
+      font-size: 0px !important;
+      padding-left: 50px;
+    }
+    .botoes {
+      align-content: center !important;
+    }
+    .navmob {
+      display: inherit !important;
+    }
+    .navbar {
+      background-color: #343a40 !important;
+      width: 102%;
+      padding-left: 20px;
+      padding-right: 35px;
+    }
+    .scrolling-wrapper {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+    .segundo {
+      margin-left: 0 !important;
+      background-color: $azul-base !important;
+      color: white;
+      .btn {
+        background-color: white !important;
+        color: black;
+      }
+    }
+    .elipse {
+      width: 70%;
+    }
+    .linha {
+      p {
+        font-size: 12px;
+      }
+      h3 {
+        font-size: 16px;
+      }
+    }
+    .genero {
+      color: white;
+    }
+  }
+  
+  @media screen and (max-width: 765px) {
+    .tlabel {
+      font-size: 10;
+      &:before {
+        margin: 0;
+        font-size: 18px;
+      }
+    }
+    .bottom-tab {
+      display: block !important;
+    }
+    .menus {
+      text-align: center;
+    }
+    .scrolling-wrapper {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+    .abrir {
+      display: block !important;
+    }
+    .abrir2 {
+      display: none !important;
+    }
+    /* .frm{
+      display: none !important;
+    } */
+    .teste {
+      display: block !important;
+      color: $azul-base;
+    }
+    .navbar {
+      background-color: #343a40 !important;
+      width: 104%;
+      padding-left: 1px;
+    }
+    .btnm {
+      text-align: start !important;
+      width: 50%;
+      width: fit-content;
+      font-size: 13px !important;
+    }
+    .botoes {
+      align-content: center;
+    }
+    .navmob {
+      display: inherit;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    .tlabel {
+      padding: 15px;
+    }
+    .linha {
+      p {
+        font-size: 18px;
+      }
+      h3 {
+        font-size: 30px;
+      }
+    }
+    .btnm {
+      font-size: 18px !important;
+      padding-left: 0;
+    }
+    .navbar {
+      width: 103%;
+      padding-left: 1px;
+    }
+  }

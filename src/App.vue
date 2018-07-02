@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    
     <Layout/>
   </div>
 </template>
@@ -10,6 +11,7 @@ import Formulario from './components/Formulario.vue'
 import MenuBase from './components/MenuBase.vue'
 import MenuTop from './components/MenuTop.vue'
 import Perfil from './components/Perfil.vue'
+import Sidenav from './components/Sidenav.vue'
 
 export default {
   name: 'app',
@@ -18,7 +20,8 @@ export default {
     Formulario,
     MenuBase,
     MenuTop,
-    Perfil
+    Perfil,
+    Sidenav
   },
   data() {
 

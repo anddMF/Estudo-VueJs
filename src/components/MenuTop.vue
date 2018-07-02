@@ -1,6 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-  
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
   <button class="navbar-toggler" type="button" style="border:none" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon "></span>
   </button>
@@ -26,13 +25,17 @@
         </div>
     </form>
   </div>
+  
 </nav>
 </template>
 
 <script>
+import Sidenav from "./Sidenav.vue"
 export default {
-    name: 'MenuTop'
-    
+    name: 'MenuTop',
+    components: {
+        Sidenav
+    } 
 }
 </script>
 

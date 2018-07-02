@@ -39,7 +39,7 @@
                   <i class="fa fa-users-cog align-middle icone mr-4"></i>Minha conta</button>
                 <!-- ATIVAR FORM CELULAR -->
                 <button class="btn btnm mx-auto menus btn-block abrir d-none" v-on:click="mostrarform = true">
-                  <i class="fa fa-users-cog align-middle icone mr-4"></i>Minha conta</button>
+                  <i class="fa fa-users-cog align-middle icone mr-4"></i><a href="#content1"> Minha conta</a></button>
               </div>
             </div>
           </div>
