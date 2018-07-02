@@ -9,6 +9,7 @@ import Layout from './components/Layout.vue'
 import Formulario from './components/Formulario.vue'
 import MenuBase from './components/MenuBase.vue'
 import MenuTop from './components/MenuTop.vue'
+import Perfil from './components/Perfil.vue'
 
 export default {
   name: 'app',
@@ -16,7 +17,8 @@ export default {
     Layout,
     Formulario,
     MenuBase,
-    MenuTop
+    MenuTop,
+    Perfil
   },
   data() {
 
