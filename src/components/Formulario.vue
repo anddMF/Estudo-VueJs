@@ -69,22 +69,22 @@
         </div>
         <div class="form-group col-md-2">
             <label for="ufI"><b>UF</b></label>
-            <input type="text" placeholder="UF" class="form-control" id="ufI">
+            <input type="text" placeholder="UF" maxlength="2" class="form-control" id="ufI">
         </div>
     </div>
     <hr class="mb-5 mt-5">
     <div class="form-row">
         <div class="form-group col-md-4">
-            <label for="compI"><b>Telefone</b></label>
-            <input type="text" placeholder="(11) 99999-9999" class="form-control" id="compI">
+            <label for="tel1"><b>Telefone</b></label>
+            <input type="text" placeholder="(11) 99999-9999" class="form-control" id="tel1">
         </div>
         <div class="form-group col-md-4">
-            <label for="cidI"><b>Telefone</b></label>
-            <input type="text" placeholder="(11) 99999-9999" class="form-control" id="cidI">
+            <label for="tel2"><b>Telefone</b></label>
+            <input type="text" placeholder="(11) 99999-9999" class="form-control" id=tel2>
         </div>
         <div class="form-group col-md-4">
-            <label for="ufI"><b>Telefone</b></label>
-            <input type="text" placeholder="(11) 99999-9999" class="form-control" id="ufI">
+            <label for="tel3"><b>Telefone</b></label>
+            <input type="text" placeholder="(11) 99999-9999" class="form-control" id="tel3">
         </div>
     </div>
     <br><br>
